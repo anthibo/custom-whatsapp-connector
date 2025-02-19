@@ -1,5 +1,5 @@
 {
-  "name": "@cmp/tiledesk-whatsapp-connector",
+  "name": "@tiledesk-cmp/tiledesk-whatsapp-connector",
   "version": "0.1.75",
   "description": "Customized Whatsapp connector for Tiledesk in CMP",
   "main": "index.js",
