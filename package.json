@@ -1,7 +1,7 @@
 {
-  "name": "@tiledesk/tiledesk-whatsapp-connector",
+  "name": "@cmp/tiledesk-whatsapp-connector",
   "version": "0.1.75",
-  "description": "Tiledesk Whatsapp connector",
+  "description": "Customized Whatsapp connector for Tiledesk in CMP",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -12,7 +12,7 @@
     "npm": "8.15.0"
   },
   "keywords": [],
-  "author": "Giovanni Troisi",
+  "author": "Anthibo",
   "license": "MIT",
   "dependencies": {
     "@tiledesk/tiledesk-client": "^0.10.4",
