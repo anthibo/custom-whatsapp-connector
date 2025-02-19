@@ -1,0 +1,605 @@
+info: (wab) Starting Whatsapp App
+error: (wab) MONGODB_URL is mandatory. Exit...
+error: uncaughtException: err is not defined
+ReferenceError: err is not defined
+    at Object.<anonymous> (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:28:89)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Tue Apr 09 2024 14:24:59 GMT+0200 (Ora legale dell’Europa centrale)","error":{},"exception":true,"os":{"loadavg":[7.9677734375,8.98095703125,9.30712890625],"uptime":1738974},"process":{"argv":["/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js"],"cwd":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector","execPath":"/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":55188071,"external":65157472,"heapTotal":66486272,"heapUsed":45323440,"rss":109166592},"pid":27093,"uid":501,"version":"v16.17.0"},"stack":"ReferenceError: err is not defined\n    at Object.<anonymous> (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:28:89)\n    at Module._compile (node:internal/modules/cjs/loader:1126:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)\n    at Module.load (node:internal/modules/cjs/loader:1004:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:839:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":89,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js","function":null,"line":28,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1126,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1180,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1004,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":839,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: (wab) Starting Whatsapp App
+error: (wab) MONGODB_URL is mandatory. Exit...
+error: uncaughtException: Cannot read properties of undefined (reading 'db')
+TypeError: Cannot read properties of undefined (reading 'db')
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:29:15
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/utils.js:695:9
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/mongo_client.js:285:23
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/operations/connect.js:285:21
+    at parseConnectionString (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/core/uri_parser.js:580:12)
+    at connect (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/operations/connect.js:283:3)
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/mongo_client.js:284:5
+    at maybePromise (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/utils.js:692:3)
+    at MongoClient.connect (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/mongo_client.js:280:10)
+    at Function.MongoClient.connect (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/mongo_client.js:426:22) {"date":"Tue Apr 09 2024 14:25:25 GMT+0200 (Ora legale dell’Europa centrale)","error":{},"exception":true,"os":{"loadavg":[6.74658203125,8.625,9.16943359375],"uptime":1739000},"process":{"argv":["/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js"],"cwd":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector","execPath":"/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":55029910,"external":65157472,"heapTotal":66224128,"heapUsed":45245056,"rss":113164288},"pid":27192,"uid":501,"version":"v16.17.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'db')\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:29:15\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/utils.js:695:9\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/mongo_client.js:285:23\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/operations/connect.js:285:21\n    at parseConnectionString (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/core/uri_parser.js:580:12)\n    at connect (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/operations/connect.js:283:3)\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/mongo_client.js:284:5\n    at maybePromise (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/utils.js:692:3)\n    at MongoClient.connect (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/mongo_client.js:280:10)\n    at Function.MongoClient.connect (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/mongo_client.js:426:22)","trace":[{"column":15,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js","function":null,"line":29,"method":null,"native":false},{"column":9,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/utils.js","function":null,"line":695,"method":null,"native":false},{"column":23,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/mongo_client.js","function":null,"line":285,"method":null,"native":false},{"column":21,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/operations/connect.js","function":null,"line":285,"method":null,"native":false},{"column":12,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/core/uri_parser.js","function":"parseConnectionString","line":580,"method":null,"native":false},{"column":3,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/operations/connect.js","function":"connect","line":283,"method":null,"native":false},{"column":5,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/mongo_client.js","function":null,"line":284,"method":null,"native":false},{"column":3,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/utils.js","function":"maybePromise","line":692,"method":null,"native":false},{"column":10,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/mongo_client.js","function":"MongoClient.connect","line":280,"method":"connect","native":false},{"column":22,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongodb/lib/mongo_client.js","function":"Function.MongoClient.connect","line":426,"method":"connect","native":false}]}
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab api) Starting api route {"AMQP_MANAGER_URL":"amqp://eamjynjp:j6Eqqy90WDV_sv_616oyb4Xp7t7nu0as@squid.rmq.cloudamqp.com/eamjynjp","API_URL":"https://tiledesk-server-pre.herokuapp.com","BASE_FILE_URL":"https://tiledesk-server-pre.herokuapp.com","DB":{"KV_COLLECTION":"kvstore"},"GRAPH_URL":"https://graph.facebook.com/v14.0/","JOB_TOPIC_EXCHANGE":"tiledesk-whatsapp_dev"}
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: Mongoose DB Connected
+info: (wab) KVBaseMongo successfully connected.
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1432:16)
+    at listenInCluster (node:net:1480:12)
+    at Server.listen (node:net:1568:7)
+    at Function.listen (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/express/lib/application.js:635:24)
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:54:11
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/index.js:1648:9
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/tiledesk/KVBaseMongo.js:34:9
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/node_modules/mongodb/lib/utils.js:704:5
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/node_modules/mongodb/lib/mongo_client.js:286:7
+    at connectCallback (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/node_modules/mongodb/lib/operations/connect.js:367:5) {"date":"Tue Apr 09 2024 14:26:31 GMT+0200 (Ora legale dell’Europa centrale)","error":{"address":"::","code":"EADDRINUSE","errno":-48,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[5.646484375,7.9033203125,8.8544921875],"uptime":1739066},"process":{"argv":["/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js"],"cwd":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector","execPath":"/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":54574929,"external":55614381,"heapTotal":71991296,"heapUsed":37668800,"rss":119799808},"pid":27426,"uid":501,"version":"v16.17.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1432:16)\n    at listenInCluster (node:net:1480:12)\n    at Server.listen (node:net:1568:7)\n    at Function.listen (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/express/lib/application.js:635:24)\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:54:11\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/index.js:1648:9\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/tiledesk/KVBaseMongo.js:34:9\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/node_modules/mongodb/lib/utils.js:704:5\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/node_modules/mongodb/lib/mongo_client.js:286:7\n    at connectCallback (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/node_modules/mongodb/lib/operations/connect.js:367:5)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1432,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1480,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1568,"method":"listen","native":false},{"column":24,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/express/lib/application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":11,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js","function":null,"line":54,"method":null,"native":false},{"column":9,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/index.js","function":null,"line":1648,"method":null,"native":false},{"column":9,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/tiledesk/KVBaseMongo.js","function":null,"line":34,"method":null,"native":false},{"column":5,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/node_modules/mongodb/lib/utils.js","function":null,"line":704,"method":null,"native":false},{"column":7,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/node_modules/mongodb/lib/mongo_client.js","function":null,"line":286,"method":null,"native":false},{"column":5,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/node_modules/mongodb/lib/operations/connect.js","function":"connectCallback","line":367,"method":null,"native":false}]}
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab api) Starting api route {"AMQP_MANAGER_URL":"amqp://eamjynjp:j6Eqqy90WDV_sv_616oyb4Xp7t7nu0as@squid.rmq.cloudamqp.com/eamjynjp","API_URL":"https://tiledesk-server-pre.herokuapp.com","BASE_FILE_URL":"https://tiledesk-server-pre.herokuapp.com","DB":{"KV_COLLECTION":"kvstore"},"GRAPH_URL":"https://graph.facebook.com/v14.0/","JOB_TOPIC_EXCHANGE":"tiledesk-whatsapp_dev"}
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: (wab) KVBaseMongo successfully connected.
+info: Mongoose DB Connected
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab api) Starting api route {"AMQP_MANAGER_URL":"amqp://eamjynjp:j6Eqqy90WDV_sv_616oyb4Xp7t7nu0as@squid.rmq.cloudamqp.com/eamjynjp","API_URL":"https://tiledesk-server-pre.herokuapp.com","BASE_FILE_URL":"https://tiledesk-server-pre.herokuapp.com","DB":{"KV_COLLECTION":"kvstore"},"GRAPH_URL":"https://graph.facebook.com/v14.0/","JOB_TOPIC_EXCHANGE":"tiledesk-whatsapp_dev"}
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: Mongoose DB Connected
+info: (wab) KVBaseMongo successfully connected.
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab api) Starting api route {"AMQP_MANAGER_URL":"amqp://eamjynjp:j6Eqqy90WDV_sv_616oyb4Xp7t7nu0as@squid.rmq.cloudamqp.com/eamjynjp","API_URL":"https://tiledesk-server-pre.herokuapp.com","BASE_FILE_URL":"https://tiledesk-server-pre.herokuapp.com","DB":{"KV_COLLECTION":"kvstore"},"GRAPH_URL":"https://graph.facebook.com/v14.0/","JOB_TOPIC_EXCHANGE":"tiledesk-whatsapp_dev"}
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: (wab) KVBaseMongo successfully connected.
+info: Mongoose DB Connected
+debug: Searching on [object Object]
+debug: Searching on Collection kvstore
+verbose: Doc found with key: whatsapp-62c3f10152dc7400352bab0d
+debug: (wab) settings:  {"business_account_id":"107050042390257","department_id":"6408617fffe5e5002c284dbc","project_id":"62c3f10152dc7400352bab0d","proxy_url":"https://tiledesk-whatsapp-connector-dev.glitch.me/webhook/62c3f10152dc7400352bab0d","secret":"89aaa5f9-cebb-4bde-8901-090248d57c0a","subscriptionId":"659bba8f8baa4c002c0821e1","token":"JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFiYTIyNTRlM2UwZTAwMzQ3MGE4YjkiLCJlbWFpbCI6Imdpb3Zhbm5pLnRyb2lzaXViQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6Ikdpb3Zhbm5pIiwibGFzdG5hbWUiOiJUcm9pc2kiLCJlbWFpbHZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MDM2ODc2ODAsImF1ZCI6Imh0dHBzOi8vdGlsZWRlc2suY29tIiwiaXNzIjoiaHR0cHM6Ly90aWxlZGVzay5jb20iLCJzdWIiOiJ1c2VyIiwianRpIjoiMzM2NTU5MjAtYjA2NS00YzRhLWIxNjctODZjZTU1ODg3NjZmIn0.aYi-BV-4lZ8fQuJuicKJcSE8qmKImDIohxwDEu-vHZpuS9P617E9GFSWT-srDZuzzhQeffiENHzMCFGofJvvaaulpAHwOpAqqhbu6IjICv_QzjACgAZ5vmC_7meMvhyAm3TexP6dMsJhZ2Ker5w9nkHvS2ZCpgRQf5cLvVy3IkA","verify_token":"tiledesk-verify-token","wab_token":"EAAF6CBX7UvEBACx4bQ3ZBFPqsSyQCdwvfOJpj4jFt7hzW5kC8Unx2EUGF8LPWsbNmcbdZCE2hmOFMmANXfIDytjqmd9O2qdoqubV8rkM5LdVtEbLdlrfbZCZB3C31oaTuZBtFbSPLIVhMogXX65Py2AImZAuHsBCsfnaNPWnRMsV1ILqjV05cQiOMmSZCgwMD1TZCItqswAvewZDZD"}
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab api) Starting api route {"AMQP_MANAGER_URL":"amqp://eamjynjp:j6Eqqy90WDV_sv_616oyb4Xp7t7nu0as@squid.rmq.cloudamqp.com/eamjynjp","API_URL":"https://tiledesk-server-pre.herokuapp.com","BASE_FILE_URL":"https://tiledesk-server-pre.herokuapp.com","DB":{"KV_COLLECTION":"kvstore"},"GRAPH_URL":"https://graph.facebook.com/v14.0/","JOB_TOPIC_EXCHANGE":"tiledesk-whatsapp_dev"}
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: Mongoose DB Connected
+info: (wab) KVBaseMongo successfully connected.
+debug: Searching on [object Object]
+debug: Searching on Collection kvstore
+verbose: Doc found with key: whatsapp-62c3f10152dc7400352bab0d
+debug: (wab) settings:  {"business_account_id":"107050042390257","department_id":"6408617fffe5e5002c284dbc","project_id":"62c3f10152dc7400352bab0d","proxy_url":"https://tiledesk-whatsapp-connector-dev.glitch.me/webhook/62c3f10152dc7400352bab0d","secret":"89aaa5f9-cebb-4bde-8901-090248d57c0a","subscriptionId":"659bba8f8baa4c002c0821e1","token":"JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFiYTIyNTRlM2UwZTAwMzQ3MGE4YjkiLCJlbWFpbCI6Imdpb3Zhbm5pLnRyb2lzaXViQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6Ikdpb3Zhbm5pIiwibGFzdG5hbWUiOiJUcm9pc2kiLCJlbWFpbHZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MDM2ODc2ODAsImF1ZCI6Imh0dHBzOi8vdGlsZWRlc2suY29tIiwiaXNzIjoiaHR0cHM6Ly90aWxlZGVzay5jb20iLCJzdWIiOiJ1c2VyIiwianRpIjoiMzM2NTU5MjAtYjA2NS00YzRhLWIxNjctODZjZTU1ODg3NjZmIn0.aYi-BV-4lZ8fQuJuicKJcSE8qmKImDIohxwDEu-vHZpuS9P617E9GFSWT-srDZuzzhQeffiENHzMCFGofJvvaaulpAHwOpAqqhbu6IjICv_QzjACgAZ5vmC_7meMvhyAm3TexP6dMsJhZ2Ker5w9nkHvS2ZCpgRQf5cLvVy3IkA","verify_token":"tiledesk-verify-token","wab_token":"EAAF6CBX7UvEBACx4bQ3ZBFPqsSyQCdwvfOJpj4jFt7hzW5kC8Unx2EUGF8LPWsbNmcbdZCE2hmOFMmANXfIDytjqmd9O2qdoqubV8rkM5LdVtEbLdlrfbZCZB3C31oaTuZBtFbSPLIVhMogXX65Py2AImZAuHsBCsfnaNPWnRMsV1ILqjV05cQiOMmSZCgwMD1TZCItqswAvewZDZD"}
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab) KVBaseMongo reused exsisting db connection
+info: (wab api) Starting api route {"AMQP_MANAGER_URL":"amqp://eamjynjp:j6Eqqy90WDV_sv_616oyb4Xp7t7nu0as@squid.rmq.cloudamqp.com/eamjynjp","API_URL":"https://tiledesk-server-pre.herokuapp.com","BASE_FILE_URL":"https://tiledesk-server-pre.herokuapp.com","DB":{"KV_COLLECTION":"kvstore","db":{"_events":{},"_eventsCount":0,"bufferMaxEntries":-1,"databaseName":"tiledesk-whatsapp-twilio-app","s":{"bson":{},"bufferMaxEntries":-1,"children":[],"dbCache":{},"logger":{"className":"Db"},"namespace":{"db":"tiledesk-whatsapp-twilio-app"},"noListener":false,"options":{"authSource":"admin","readPreference":{"mode":"primary"},"retryWrites":true},"parentDb":null,"readPreference":{"mode":"primary"},"topology":{"_events":{"all":[null,null],"close":[null,null],"error":[null,null],"fullsetup":[null,null],"parseError":[null,null],"reconnect":[null,null],"timeout":[null,null]},"_eventsCount":35,"_maxListeners":null,"s":{"bson":{},"clusterTime":{"clusterTime":"7355843363754475584","signature":{"hash":"ZkCdeJXPyGE+pzX/4tlfxVsO4pU=","keyId":"7322178465195622427"}},"connectionTimers":{},"credentials":{"mechanism":"default","mechanismProperties":{},"password":"x88Kjb85Y2Cm5rin","source":"admin","username":"tiledesk-whatsapp-twilio-app"},"description":{"commonWireVersion":9,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":"7fffffff00000000000000b1","maxSetVersion":12,"servers":{},"setName":"tiledesk-prod-shard-0","stale":false,"type":"ReplicaSetWithPrimary"},"heartbeatFrequencyMS":10000,"id":0,"minHeartbeatFrequencyMS":500,"options":{"auth":{"db":"admin","password":"x88Kjb85Y2Cm5rin","user":"tiledesk-whatsapp-twilio-app","username":"tiledesk-whatsapp-twilio-app"},"authSource":"admin","caseTranslate":true,"checkServerIdentity":true,"compression":{"compressors":[]},"connectionTimeout":10000,"credentials":{"mechanism":"default","mechanismProperties":{},"password":"x88Kjb85Y2Cm5rin","source":"admin","username":"tiledesk-whatsapp-twilio-app"},"dbName":"tiledesk-whatsapp-twilio-app","emitError":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"maxPoolSize":10,"metadata":{"driver":{"name":"nodejs","version":"3.7.3"},"os":{"architecture":"arm64","name":"darwin","type":"Darwin","version":"23.1.0"},"platform":"'Node.js v16.17.0, LE (unified)"},"minHeartbeatFrequencyMS":500,"minPoolSize":0,"monitorCommands":false,"readPreference":{"mode":"primary"},"reconnect":false,"rejectUnauthorized":true,"retryWrites":true,"serverSelectionTimeoutMS":30000,"servers":[{"host":"tiledesk-prod-shard-00-00-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-01-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-02-vmvst.mongodb.net","port":27017}],"setName":"tiledesk-prod-shard-0","socketTimeout":0,"ssl":true,"useNewUrlParser":true,"useRecoveryToken":true,"useUnifiedTopology":true},"seedlist":[{"host":"tiledesk-prod-shard-00-00-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-01-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-02-vmvst.mongodb.net","port":27017}],"serverSelectionTimeoutMS":30000,"servers":{},"sessionPool":{"sessions":[],"topology":"[Circular]"},"sessions":{},"state":"connected"}}},"serverConfig":{"_events":{"all":[null,null],"close":[null,null],"error":[null,null],"fullsetup":[null,null],"parseError":[null,null],"reconnect":[null,null],"timeout":[null,null]},"_eventsCount":35,"_maxListeners":null,"s":{"bson":{},"clusterTime":{"clusterTime":"7355843363754475584","signature":{"hash":"ZkCdeJXPyGE+pzX/4tlfxVsO4pU=","keyId":"7322178465195622427"}},"connectionTimers":{},"credentials":{"mechanism":"default","mechanismProperties":{},"password":"x88Kjb85Y2Cm5rin","source":"admin","username":"tiledesk-whatsapp-twilio-app"},"description":{"commonWireVersion":9,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":"7fffffff00000000000000b1","maxSetVersion":12,"servers":{},"setName":"tiledesk-prod-shard-0","stale":false,"type":"ReplicaSetWithPrimary"},"heartbeatFrequencyMS":10000,"id":0,"minHeartbeatFrequencyMS":500,"options":{"auth":{"db":"admin","password":"x88Kjb85Y2Cm5rin","user":"tiledesk-whatsapp-twilio-app","username":"tiledesk-whatsapp-twilio-app"},"authSource":"admin","caseTranslate":true,"checkServerIdentity":true,"compression":{"compressors":[]},"connectionTimeout":10000,"credentials":{"mechanism":"default","mechanismProperties":{},"password":"x88Kjb85Y2Cm5rin","source":"admin","username":"tiledesk-whatsapp-twilio-app"},"dbName":"tiledesk-whatsapp-twilio-app","emitError":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"maxPoolSize":10,"metadata":{"driver":{"name":"nodejs","version":"3.7.3"},"os":{"architecture":"arm64","name":"darwin","type":"Darwin","version":"23.1.0"},"platform":"'Node.js v16.17.0, LE (unified)"},"minHeartbeatFrequencyMS":500,"minPoolSize":0,"monitorCommands":false,"readPreference":{"mode":"primary"},"reconnect":false,"rejectUnauthorized":true,"retryWrites":true,"serverSelectionTimeoutMS":30000,"servers":[{"host":"tiledesk-prod-shard-00-00-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-01-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-02-vmvst.mongodb.net","port":27017}],"setName":"tiledesk-prod-shard-0","socketTimeout":0,"ssl":true,"useNewUrlParser":true,"useRecoveryToken":true,"useUnifiedTopology":true},"seedlist":[{"host":"tiledesk-prod-shard-00-00-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-01-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-02-vmvst.mongodb.net","port":27017}],"serverSelectionTimeoutMS":30000,"servers":{},"sessionPool":{"sessions":[],"topology":"[Circular]"},"sessions":{},"state":"connected"}}}},"GRAPH_URL":"https://graph.facebook.com/v14.0/","JOB_TOPIC_EXCHANGE":"tiledesk-whatsapp_dev"}
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: Mongoose DB Connected
+debug: Searching on [object Object]
+debug: Searching on Collection kvstore
+verbose: Doc found with key: whatsapp-62c3f10152dc7400352bab0d
+debug: (wab) settings:  {"business_account_id":"107050042390257","department_id":"6408617fffe5e5002c284dbc","project_id":"62c3f10152dc7400352bab0d","proxy_url":"https://tiledesk-whatsapp-connector-dev.glitch.me/webhook/62c3f10152dc7400352bab0d","secret":"89aaa5f9-cebb-4bde-8901-090248d57c0a","subscriptionId":"659bba8f8baa4c002c0821e1","token":"JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFiYTIyNTRlM2UwZTAwMzQ3MGE4YjkiLCJlbWFpbCI6Imdpb3Zhbm5pLnRyb2lzaXViQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6Ikdpb3Zhbm5pIiwibGFzdG5hbWUiOiJUcm9pc2kiLCJlbWFpbHZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MDM2ODc2ODAsImF1ZCI6Imh0dHBzOi8vdGlsZWRlc2suY29tIiwiaXNzIjoiaHR0cHM6Ly90aWxlZGVzay5jb20iLCJzdWIiOiJ1c2VyIiwianRpIjoiMzM2NTU5MjAtYjA2NS00YzRhLWIxNjctODZjZTU1ODg3NjZmIn0.aYi-BV-4lZ8fQuJuicKJcSE8qmKImDIohxwDEu-vHZpuS9P617E9GFSWT-srDZuzzhQeffiENHzMCFGofJvvaaulpAHwOpAqqhbu6IjICv_QzjACgAZ5vmC_7meMvhyAm3TexP6dMsJhZ2Ker5w9nkHvS2ZCpgRQf5cLvVy3IkA","verify_token":"tiledesk-verify-token","wab_token":"EAAF6CBX7UvEBACx4bQ3ZBFPqsSyQCdwvfOJpj4jFt7hzW5kC8Unx2EUGF8LPWsbNmcbdZCE2hmOFMmANXfIDytjqmd9O2qdoqubV8rkM5LdVtEbLdlrfbZCZB3C31oaTuZBtFbSPLIVhMogXX65Py2AImZAuHsBCsfnaNPWnRMsV1ILqjV05cQiOMmSZCgwMD1TZCItqswAvewZDZD"}
+debug: Searching on [object Object]
+debug: Searching on Collection kvstore
+verbose: Doc found with key: whatsapp-62c3f10152dc7400352bab0d
+debug: (wab) settings:  {"business_account_id":"107050042390257","department_id":"6408617fffe5e5002c284dbc","project_id":"62c3f10152dc7400352bab0d","proxy_url":"https://tiledesk-whatsapp-connector-dev.glitch.me/webhook/62c3f10152dc7400352bab0d","secret":"89aaa5f9-cebb-4bde-8901-090248d57c0a","subscriptionId":"659bba8f8baa4c002c0821e1","token":"JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFiYTIyNTRlM2UwZTAwMzQ3MGE4YjkiLCJlbWFpbCI6Imdpb3Zhbm5pLnRyb2lzaXViQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6Ikdpb3Zhbm5pIiwibGFzdG5hbWUiOiJUcm9pc2kiLCJlbWFpbHZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MDM2ODc2ODAsImF1ZCI6Imh0dHBzOi8vdGlsZWRlc2suY29tIiwiaXNzIjoiaHR0cHM6Ly90aWxlZGVzay5jb20iLCJzdWIiOiJ1c2VyIiwianRpIjoiMzM2NTU5MjAtYjA2NS00YzRhLWIxNjctODZjZTU1ODg3NjZmIn0.aYi-BV-4lZ8fQuJuicKJcSE8qmKImDIohxwDEu-vHZpuS9P617E9GFSWT-srDZuzzhQeffiENHzMCFGofJvvaaulpAHwOpAqqhbu6IjICv_QzjACgAZ5vmC_7meMvhyAm3TexP6dMsJhZ2Ker5w9nkHvS2ZCpgRQf5cLvVy3IkA","verify_token":"tiledesk-verify-token","wab_token":"EAAF6CBX7UvEBACx4bQ3ZBFPqsSyQCdwvfOJpj4jFt7hzW5kC8Unx2EUGF8LPWsbNmcbdZCE2hmOFMmANXfIDytjqmd9O2qdoqubV8rkM5LdVtEbLdlrfbZCZB3C31oaTuZBtFbSPLIVhMogXX65Py2AImZAuHsBCsfnaNPWnRMsV1ILqjV05cQiOMmSZCgwMD1TZCItqswAvewZDZD"}
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab api) Starting api route {"AMQP_MANAGER_URL":"amqp://eamjynjp:j6Eqqy90WDV_sv_616oyb4Xp7t7nu0as@squid.rmq.cloudamqp.com/eamjynjp","API_URL":"https://tiledesk-server-pre.herokuapp.com","BASE_FILE_URL":"https://tiledesk-server-pre.herokuapp.com","DB":{"KV_COLLECTION":"kvstore"},"GRAPH_URL":"https://graph.facebook.com/v14.0/","JOB_TOPIC_EXCHANGE":"tiledesk-whatsapp_dev"}
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: Mongoose DB Connected
+info: (wab) KVBaseMongo successfully connected.
+debug: Searching on [object Object]
+debug: Searching on Collection kvstore
+verbose: Doc found with key: whatsapp-62c3f10152dc7400352bab0d
+debug: (wab) settings:  {"business_account_id":"107050042390257","department_id":"6408617fffe5e5002c284dbc","project_id":"62c3f10152dc7400352bab0d","proxy_url":"https://tiledesk-whatsapp-connector-dev.glitch.me/webhook/62c3f10152dc7400352bab0d","secret":"89aaa5f9-cebb-4bde-8901-090248d57c0a","subscriptionId":"659bba8f8baa4c002c0821e1","token":"JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFiYTIyNTRlM2UwZTAwMzQ3MGE4YjkiLCJlbWFpbCI6Imdpb3Zhbm5pLnRyb2lzaXViQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6Ikdpb3Zhbm5pIiwibGFzdG5hbWUiOiJUcm9pc2kiLCJlbWFpbHZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MDM2ODc2ODAsImF1ZCI6Imh0dHBzOi8vdGlsZWRlc2suY29tIiwiaXNzIjoiaHR0cHM6Ly90aWxlZGVzay5jb20iLCJzdWIiOiJ1c2VyIiwianRpIjoiMzM2NTU5MjAtYjA2NS00YzRhLWIxNjctODZjZTU1ODg3NjZmIn0.aYi-BV-4lZ8fQuJuicKJcSE8qmKImDIohxwDEu-vHZpuS9P617E9GFSWT-srDZuzzhQeffiENHzMCFGofJvvaaulpAHwOpAqqhbu6IjICv_QzjACgAZ5vmC_7meMvhyAm3TexP6dMsJhZ2Ker5w9nkHvS2ZCpgRQf5cLvVy3IkA","verify_token":"tiledesk-verify-token","wab_token":"EAAF6CBX7UvEBACx4bQ3ZBFPqsSyQCdwvfOJpj4jFt7hzW5kC8Unx2EUGF8LPWsbNmcbdZCE2hmOFMmANXfIDytjqmd9O2qdoqubV8rkM5LdVtEbLdlrfbZCZB3C31oaTuZBtFbSPLIVhMogXX65Py2AImZAuHsBCsfnaNPWnRMsV1ILqjV05cQiOMmSZCgwMD1TZCItqswAvewZDZD"}
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab api) Starting api route {"AMQP_MANAGER_URL":"amqp://eamjynjp:j6Eqqy90WDV_sv_616oyb4Xp7t7nu0as@squid.rmq.cloudamqp.com/eamjynjp","API_URL":"https://tiledesk-server-pre.herokuapp.com","BASE_FILE_URL":"https://tiledesk-server-pre.herokuapp.com","DB":{"KV_COLLECTION":"kvstore"},"GRAPH_URL":"https://graph.facebook.com/v14.0/","JOB_TOPIC_EXCHANGE":"tiledesk-whatsapp_dev"}
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: (wab) KVBaseMongo successfully connected.
+info: Mongoose DB Connected
+debug: Searching on [object Object]
+debug: Searching on Collection kvstore
+verbose: Doc found with key: whatsapp-62c3f10152dc7400352bab0d
+debug: (wab) settings:  {"business_account_id":"107050042390257","department_id":"6408617fffe5e5002c284dbc","project_id":"62c3f10152dc7400352bab0d","proxy_url":"https://tiledesk-whatsapp-connector-dev.glitch.me/webhook/62c3f10152dc7400352bab0d","secret":"89aaa5f9-cebb-4bde-8901-090248d57c0a","subscriptionId":"659bba8f8baa4c002c0821e1","token":"JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFiYTIyNTRlM2UwZTAwMzQ3MGE4YjkiLCJlbWFpbCI6Imdpb3Zhbm5pLnRyb2lzaXViQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6Ikdpb3Zhbm5pIiwibGFzdG5hbWUiOiJUcm9pc2kiLCJlbWFpbHZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MDM2ODc2ODAsImF1ZCI6Imh0dHBzOi8vdGlsZWRlc2suY29tIiwiaXNzIjoiaHR0cHM6Ly90aWxlZGVzay5jb20iLCJzdWIiOiJ1c2VyIiwianRpIjoiMzM2NTU5MjAtYjA2NS00YzRhLWIxNjctODZjZTU1ODg3NjZmIn0.aYi-BV-4lZ8fQuJuicKJcSE8qmKImDIohxwDEu-vHZpuS9P617E9GFSWT-srDZuzzhQeffiENHzMCFGofJvvaaulpAHwOpAqqhbu6IjICv_QzjACgAZ5vmC_7meMvhyAm3TexP6dMsJhZ2Ker5w9nkHvS2ZCpgRQf5cLvVy3IkA","verify_token":"tiledesk-verify-token","wab_token":"EAAF6CBX7UvEBACx4bQ3ZBFPqsSyQCdwvfOJpj4jFt7hzW5kC8Unx2EUGF8LPWsbNmcbdZCE2hmOFMmANXfIDytjqmd9O2qdoqubV8rkM5LdVtEbLdlrfbZCZB3C31oaTuZBtFbSPLIVhMogXX65Py2AImZAuHsBCsfnaNPWnRMsV1ILqjV05cQiOMmSZCgwMD1TZCItqswAvewZDZD"}
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab) KVBaseMongo reused exsisting db connection
+info: (wab api) Starting api route {"AMQP_MANAGER_URL":"amqp://eamjynjp:j6Eqqy90WDV_sv_616oyb4Xp7t7nu0as@squid.rmq.cloudamqp.com/eamjynjp","API_URL":"https://tiledesk-server-pre.herokuapp.com","BASE_FILE_URL":"https://tiledesk-server-pre.herokuapp.com","DB":{"KV_COLLECTION":"kvstore","db":{"_events":{},"_eventsCount":0,"bufferMaxEntries":-1,"databaseName":"tiledesk-whatsapp-twilio-app","s":{"bson":{},"bufferMaxEntries":-1,"children":[],"dbCache":{},"logger":{"className":"Db"},"namespace":{"db":"tiledesk-whatsapp-twilio-app"},"noListener":false,"options":{"authSource":"admin","readPreference":{"mode":"primary"},"retryWrites":true},"parentDb":null,"readPreference":{"mode":"primary"},"topology":{"_events":{"all":[null,null],"close":[null,null],"error":[null,null],"fullsetup":[null,null],"parseError":[null,null],"reconnect":[null,null],"timeout":[null,null]},"_eventsCount":35,"_maxListeners":null,"s":{"bson":{},"clusterTime":{"clusterTime":"7355843578502840338","signature":{"hash":"SG2Kvp0eHQONv2tKaon4krXqEgw=","keyId":"7322178465195622427"}},"connectionTimers":{},"credentials":{"mechanism":"default","mechanismProperties":{},"password":"x88Kjb85Y2Cm5rin","source":"admin","username":"tiledesk-whatsapp-twilio-app"},"description":{"commonWireVersion":9,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":"7fffffff00000000000000b1","maxSetVersion":12,"servers":{},"setName":"tiledesk-prod-shard-0","stale":false,"type":"ReplicaSetWithPrimary"},"heartbeatFrequencyMS":10000,"id":0,"minHeartbeatFrequencyMS":500,"options":{"auth":{"db":"admin","password":"x88Kjb85Y2Cm5rin","user":"tiledesk-whatsapp-twilio-app","username":"tiledesk-whatsapp-twilio-app"},"authSource":"admin","caseTranslate":true,"checkServerIdentity":true,"compression":{"compressors":[]},"connectionTimeout":10000,"credentials":{"mechanism":"default","mechanismProperties":{},"password":"x88Kjb85Y2Cm5rin","source":"admin","username":"tiledesk-whatsapp-twilio-app"},"dbName":"tiledesk-whatsapp-twilio-app","emitError":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"maxPoolSize":10,"metadata":{"driver":{"name":"nodejs","version":"3.7.3"},"os":{"architecture":"arm64","name":"darwin","type":"Darwin","version":"23.1.0"},"platform":"'Node.js v16.17.0, LE (unified)"},"minHeartbeatFrequencyMS":500,"minPoolSize":0,"monitorCommands":false,"readPreference":{"mode":"primary"},"reconnect":false,"rejectUnauthorized":true,"retryWrites":true,"serverSelectionTimeoutMS":30000,"servers":[{"host":"tiledesk-prod-shard-00-00-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-01-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-02-vmvst.mongodb.net","port":27017}],"setName":"tiledesk-prod-shard-0","socketTimeout":0,"ssl":true,"useNewUrlParser":true,"useRecoveryToken":true,"useUnifiedTopology":true},"seedlist":[{"host":"tiledesk-prod-shard-00-00-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-01-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-02-vmvst.mongodb.net","port":27017}],"serverSelectionTimeoutMS":30000,"servers":{},"sessionPool":{"sessions":[],"topology":"[Circular]"},"sessions":{},"state":"connected"}}},"serverConfig":{"_events":{"all":[null,null],"close":[null,null],"error":[null,null],"fullsetup":[null,null],"parseError":[null,null],"reconnect":[null,null],"timeout":[null,null]},"_eventsCount":35,"_maxListeners":null,"s":{"bson":{},"clusterTime":{"clusterTime":"7355843578502840338","signature":{"hash":"SG2Kvp0eHQONv2tKaon4krXqEgw=","keyId":"7322178465195622427"}},"connectionTimers":{},"credentials":{"mechanism":"default","mechanismProperties":{},"password":"x88Kjb85Y2Cm5rin","source":"admin","username":"tiledesk-whatsapp-twilio-app"},"description":{"commonWireVersion":9,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":30,"maxElectionId":"7fffffff00000000000000b1","maxSetVersion":12,"servers":{},"setName":"tiledesk-prod-shard-0","stale":false,"type":"ReplicaSetWithPrimary"},"heartbeatFrequencyMS":10000,"id":0,"minHeartbeatFrequencyMS":500,"options":{"auth":{"db":"admin","password":"x88Kjb85Y2Cm5rin","user":"tiledesk-whatsapp-twilio-app","username":"tiledesk-whatsapp-twilio-app"},"authSource":"admin","caseTranslate":true,"checkServerIdentity":true,"compression":{"compressors":[]},"connectionTimeout":10000,"credentials":{"mechanism":"default","mechanismProperties":{},"password":"x88Kjb85Y2Cm5rin","source":"admin","username":"tiledesk-whatsapp-twilio-app"},"dbName":"tiledesk-whatsapp-twilio-app","emitError":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"maxPoolSize":10,"metadata":{"driver":{"name":"nodejs","version":"3.7.3"},"os":{"architecture":"arm64","name":"darwin","type":"Darwin","version":"23.1.0"},"platform":"'Node.js v16.17.0, LE (unified)"},"minHeartbeatFrequencyMS":500,"minPoolSize":0,"monitorCommands":false,"readPreference":{"mode":"primary"},"reconnect":false,"rejectUnauthorized":true,"retryWrites":true,"serverSelectionTimeoutMS":30000,"servers":[{"host":"tiledesk-prod-shard-00-00-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-01-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-02-vmvst.mongodb.net","port":27017}],"setName":"tiledesk-prod-shard-0","socketTimeout":0,"ssl":true,"useNewUrlParser":true,"useRecoveryToken":true,"useUnifiedTopology":true},"seedlist":[{"host":"tiledesk-prod-shard-00-00-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-01-vmvst.mongodb.net","port":27017},{"host":"tiledesk-prod-shard-00-02-vmvst.mongodb.net","port":27017}],"serverSelectionTimeoutMS":30000,"servers":{},"sessionPool":{"sessions":[],"topology":"[Circular]"},"sessions":{},"state":"connected"}}}},"GRAPH_URL":"https://graph.facebook.com/v14.0/","JOB_TOPIC_EXCHANGE":"tiledesk-whatsapp_dev"}
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: Mongoose DB Connected
+debug: KV_COLLECTION: kvstore
+error: uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:29:18)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Tue Apr 09 2024 14:31:36 GMT+0200 (Ora legale dell’Europa centrale)","error":{},"exception":true,"os":{"loadavg":[4.72412109375,8.51025390625,9.13525390625],"uptime":1739371},"process":{"argv":["/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js"],"cwd":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector","execPath":"/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":54941131,"external":65157817,"heapTotal":66486272,"heapUsed":44558264,"rss":102596608},"pid":28659,"uid":501,"version":"v16.17.0"},"stack":"ReferenceError: mongoose is not defined\n    at Object.<anonymous> (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:29:18)\n    at Module._compile (node:internal/modules/cjs/loader:1126:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)\n    at Module.load (node:internal/modules/cjs/loader:1004:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:839:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":18,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js","function":null,"line":29,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1126,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1180,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1004,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":839,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+debug: KV_COLLECTION: kvstore
+error: uncaughtException: databaseUri is not defined
+ReferenceError: databaseUri is not defined
+    at Object.<anonymous> (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:30:35)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Tue Apr 09 2024 14:31:57 GMT+0200 (Ora legale dell’Europa centrale)","error":{},"exception":true,"os":{"loadavg":[9.37060546875,9.2939453125,9.3994140625],"uptime":1739392},"process":{"argv":["/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js"],"cwd":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector","execPath":"/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":55023032,"external":60488835,"heapTotal":70631424,"heapUsed":48412096,"rss":113213440},"pid":28744,"uid":501,"version":"v16.17.0"},"stack":"ReferenceError: databaseUri is not defined\n    at Object.<anonymous> (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:30:35)\n    at Module._compile (node:internal/modules/cjs/loader:1126:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)\n    at Module.load (node:internal/modules/cjs/loader:1004:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:839:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":35,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js","function":null,"line":30,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1126,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1180,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1004,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":839,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+debug: KV_COLLECTION: kvstore
+error: uncaughtException: autoIndex is not defined
+ReferenceError: autoIndex is not defined
+    at Object.<anonymous> (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:30:88)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Tue Apr 09 2024 14:32:06 GMT+0200 (Ora legale dell’Europa centrale)","error":{},"exception":true,"os":{"loadavg":[9.01220703125,9.21826171875,9.37109375],"uptime":1739401},"process":{"argv":["/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js"],"cwd":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector","execPath":"/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":54980573,"external":66590193,"heapTotal":70107136,"heapUsed":48795616,"rss":117030912},"pid":28802,"uid":501,"version":"v16.17.0"},"stack":"ReferenceError: autoIndex is not defined\n    at Object.<anonymous> (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:30:88)\n    at Module._compile (node:internal/modules/cjs/loader:1126:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)\n    at Module.load (node:internal/modules/cjs/loader:1004:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:839:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":88,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js","function":null,"line":30,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1126,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1180,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1004,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":839,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+debug: KV_COLLECTION: kvstore
+error: uncaughtException: winston is not defined
+ReferenceError: winston is not defined
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:35:3
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/index.js:385:14
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/connection.js:841:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Tue Apr 09 2024 14:32:34 GMT+0200 (Ora legale dell’Europa centrale)","error":{},"exception":true,"os":{"loadavg":[8.70263671875,9.13037109375,9.33349609375],"uptime":1739429},"process":{"argv":["/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js"],"cwd":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector","execPath":"/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":54503944,"external":55448589,"heapTotal":77447168,"heapUsed":43236448,"rss":120143872},"pid":28920,"uid":501,"version":"v16.17.0"},"stack":"ReferenceError: winston is not defined\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:35:3\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/index.js:385:14\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/connection.js:841:15\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":3,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js","function":null,"line":35,"method":null,"native":false},{"column":18,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/helpers/promiseOrCallback.js","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/index.js","function":null,"line":385,"method":null,"native":false},{"column":15,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/connection.js","function":null,"line":841,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab) KVBaseMongo reused exsisting db connection
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: Mongoose DB Connected
+debug: Searching on [object Object]
+debug: Searching on Collection kvstore
+verbose: Doc found with key: whatsapp-62c3f10152dc7400352bab0d
+debug: (wab) settings:  {"business_account_id":"107050042390257","department_id":"6408617fffe5e5002c284dbc","project_id":"62c3f10152dc7400352bab0d","proxy_url":"https://tiledesk-whatsapp-connector-dev.glitch.me/webhook/62c3f10152dc7400352bab0d","secret":"89aaa5f9-cebb-4bde-8901-090248d57c0a","subscriptionId":"659bba8f8baa4c002c0821e1","token":"JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFiYTIyNTRlM2UwZTAwMzQ3MGE4YjkiLCJlbWFpbCI6Imdpb3Zhbm5pLnRyb2lzaXViQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6Ikdpb3Zhbm5pIiwibGFzdG5hbWUiOiJUcm9pc2kiLCJlbWFpbHZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MDM2ODc2ODAsImF1ZCI6Imh0dHBzOi8vdGlsZWRlc2suY29tIiwiaXNzIjoiaHR0cHM6Ly90aWxlZGVzay5jb20iLCJzdWIiOiJ1c2VyIiwianRpIjoiMzM2NTU5MjAtYjA2NS00YzRhLWIxNjctODZjZTU1ODg3NjZmIn0.aYi-BV-4lZ8fQuJuicKJcSE8qmKImDIohxwDEu-vHZpuS9P617E9GFSWT-srDZuzzhQeffiENHzMCFGofJvvaaulpAHwOpAqqhbu6IjICv_QzjACgAZ5vmC_7meMvhyAm3TexP6dMsJhZ2Ker5w9nkHvS2ZCpgRQf5cLvVy3IkA","verify_token":"tiledesk-verify-token","wab_token":"EAAF6CBX7UvEBACx4bQ3ZBFPqsSyQCdwvfOJpj4jFt7hzW5kC8Unx2EUGF8LPWsbNmcbdZCE2hmOFMmANXfIDytjqmd9O2qdoqubV8rkM5LdVtEbLdlrfbZCZB3C31oaTuZBtFbSPLIVhMogXX65Py2AImZAuHsBCsfnaNPWnRMsV1ILqjV05cQiOMmSZCgwMD1TZCItqswAvewZDZD"}
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab) KVBaseMongo reused exsisting db connection
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: Mongoose DB Connected
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab) KVBaseMongo reused exsisting db connection
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: Mongoose DB Connected
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab) KVBaseMongo reused exsisting db connection
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: Mongoose DB Connected
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab) KVBaseMongo reused exsisting db connection
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: Mongoose DB Connected
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab) KVBaseMongo reused exsisting db connection
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: Mongoose DB Connected
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+error: uncaughtException: LOG_MONGODB_URL is not defined
+ReferenceError: LOG_MONGODB_URL is not defined
+    at Object.startApp (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/index.js:1645:3)
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:37:12
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/index.js:385:14
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/connection.js:841:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Tue Apr 09 2024 14:50:00 GMT+0200 (Ora legale dell’Europa centrale)","error":{},"exception":true,"os":{"loadavg":[6.17431640625,7.03369140625,7.70458984375],"uptime":1740475},"process":{"argv":["/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js"],"cwd":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector","execPath":"/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":54562597,"external":57468268,"heapTotal":74563584,"heapUsed":46369952,"rss":78118912},"pid":32530,"uid":501,"version":"v16.17.0"},"stack":"ReferenceError: LOG_MONGODB_URL is not defined\n    at Object.startApp (/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/index.js:1645:3)\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:37:12\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/index.js:385:14\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/connection.js:841:15\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":3,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/whatsappRoute/index.js","function":"Object.startApp","line":1645,"method":"startApp","native":false},{"column":12,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js","function":null,"line":37,"method":null,"native":false},{"column":18,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/helpers/promiseOrCallback.js","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/index.js","function":null,"line":385,"method":null,"native":false},{"column":15,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/connection.js","function":null,"line":841,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab) KVBaseMongo reused exsisting db connection
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+debug: KV_COLLECTION: kvstore
+error: uncaughtException: LOG_MONGODB_URL is not defined
+ReferenceError: LOG_MONGODB_URL is not defined
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:40:24
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/index.js:385:14
+    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/connection.js:841:15
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Tue Apr 09 2024 14:51:29 GMT+0200 (Ora legale dell’Europa centrale)","error":{},"exception":true,"os":{"loadavg":[5.9404296875,7.203125,7.736328125],"uptime":1740564},"process":{"argv":["/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js"],"cwd":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector","execPath":"/Users/johnny/.nvm/versions/node/v16.17.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":54538590,"external":60528083,"heapTotal":74301440,"heapUsed":46258728,"rss":122585088},"pid":32875,"uid":501,"version":"v16.17.0"},"stack":"ReferenceError: LOG_MONGODB_URL is not defined\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js:40:24\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/helpers/promiseOrCallback.js:26:18\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/index.js:385:14\n    at /Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/connection.js:841:15\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","trace":[{"column":24,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/index.js","function":null,"line":40,"method":null,"native":false},{"column":18,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/helpers/promiseOrCallback.js","function":null,"line":26,"method":null,"native":false},{"column":14,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/index.js","function":null,"line":385,"method":null,"native":false},{"column":15,"file":"/Users/johnny/Documents/Tiledesk/tiledesk-whatsapp-connector/node_modules/mongoose/lib/connection.js","function":null,"line":841,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab) KVBaseMongo reused exsisting db connection
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab) KVBaseMongo reused exsisting db connection
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab) KVBaseMongo reused exsisting db connection
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab) KVBaseMongo reused exsisting db connection
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: (wab) KVBaseMongo successfully connected.
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: (wab) KVBaseMongo successfully connected.
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: (wab) KVBaseMongo successfully connected.
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: (wab) KVBaseMongo successfully connected.
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: (wab) KVBaseMongo successfully connected.
+debug: KV_COLLECTION: kvstore
+info: (wab) Starting Whatsapp App
+info: (wab) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab) BASE_URL: https://tiledesk-whatsapp-connector-dev.glitch.me
+info: (wab) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab) APPS_API_URL: https://tiledesk-apps.herokuapp.com
+info: (wab) AMQP_MANAGER_URL is present
+info: (wab) JOB_TOPIC_EXCHANGE is present
+info: (wab api) Starting api route
+info: (wab api) GRAPH_URL: https://graph.facebook.com/v14.0/
+info: (wab api) API_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) BASE_FILE_URL: https://tiledesk-server-pre.herokuapp.com
+info: (wab api) AMQP_MANAGER_URL is present
+info: (wab api) JOB_TOPIC_EXCHANGE is present
+info: (wab) Redis ready!
+info: (wab) KVBaseMongo successfully connected.
+verbose: (wab) Action received from Tiledesk (Broadcast)
+debug: Body (broadcast): 
+debug: Searching on [object Object]
+debug: Searching on Collection kvstore
+verbose: Doc found with key: whatsapp-62c3f10152dc7400352bab0d
+debug: (wab) data_To_scheduler:  {"phone_number_id":"109639215462567","project_id":"62c3f10152dc7400352bab0d","receiver_list":[{"phone_number":"+393484506627"}],"settings":{"business_account_id":"107050042390257","department_id":"6408617fffe5e5002c284dbc","project_id":"62c3f10152dc7400352bab0d","proxy_url":"https://tiledesk-whatsapp-connector-dev.glitch.me/webhook/62c3f10152dc7400352bab0d","secret":"89aaa5f9-cebb-4bde-8901-090248d57c0a","subscriptionId":"659bba8f8baa4c002c0821e1","token":"JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFiYTIyNTRlM2UwZTAwMzQ3MGE4YjkiLCJlbWFpbCI6Imdpb3Zhbm5pLnRyb2lzaXViQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6Ikdpb3Zhbm5pIiwibGFzdG5hbWUiOiJUcm9pc2kiLCJlbWFpbHZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MDM2ODc2ODAsImF1ZCI6Imh0dHBzOi8vdGlsZWRlc2suY29tIiwiaXNzIjoiaHR0cHM6Ly90aWxlZGVzay5jb20iLCJzdWIiOiJ1c2VyIiwianRpIjoiMzM2NTU5MjAtYjA2NS00YzRhLWIxNjctODZjZTU1ODg3NjZmIn0.aYi-BV-4lZ8fQuJuicKJcSE8qmKImDIohxwDEu-vHZpuS9P617E9GFSWT-srDZuzzhQeffiENHzMCFGofJvvaaulpAHwOpAqqhbu6IjICv_QzjACgAZ5vmC_7meMvhyAm3TexP6dMsJhZ2Ker5w9nkHvS2ZCpgRQf5cLvVy3IkA","verify_token":"tiledesk-verify-token","wab_token":"EAAF6CBX7UvEBACx4bQ3ZBFPqsSyQCdwvfOJpj4jFt7hzW5kC8Unx2EUGF8LPWsbNmcbdZCE2hmOFMmANXfIDytjqmd9O2qdoqubV8rkM5LdVtEbLdlrfbZCZB3C31oaTuZBtFbSPLIVhMogXX65Py2AImZAuHsBCsfnaNPWnRMsV1ILqjV05cQiOMmSZCgwMD1TZCItqswAvewZDZD"},"template":{"language":"en_US","name":"hello_world"},"transaction_id":"tiledesk-broadcast-1713886126422"}
+debug: (wab) Data arrived to scheduler:  {"date":"2024-04-23T15:28:46.469Z","phone_number_id":"109639215462567","project_id":"62c3f10152dc7400352bab0d","receiver_list":[{"phone_number":"+393484506627"}],"settings":{"business_account_id":"107050042390257","department_id":"6408617fffe5e5002c284dbc","project_id":"62c3f10152dc7400352bab0d","proxy_url":"https://tiledesk-whatsapp-connector-dev.glitch.me/webhook/62c3f10152dc7400352bab0d","secret":"89aaa5f9-cebb-4bde-8901-090248d57c0a","subscriptionId":"659bba8f8baa4c002c0821e1","token":"JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFiYTIyNTRlM2UwZTAwMzQ3MGE4YjkiLCJlbWFpbCI6Imdpb3Zhbm5pLnRyb2lzaXViQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6Ikdpb3Zhbm5pIiwibGFzdG5hbWUiOiJUcm9pc2kiLCJlbWFpbHZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MDM2ODc2ODAsImF1ZCI6Imh0dHBzOi8vdGlsZWRlc2suY29tIiwiaXNzIjoiaHR0cHM6Ly90aWxlZGVzay5jb20iLCJzdWIiOiJ1c2VyIiwianRpIjoiMzM2NTU5MjAtYjA2NS00YzRhLWIxNjctODZjZTU1ODg3NjZmIn0.aYi-BV-4lZ8fQuJuicKJcSE8qmKImDIohxwDEu-vHZpuS9P617E9GFSWT-srDZuzzhQeffiENHzMCFGofJvvaaulpAHwOpAqqhbu6IjICv_QzjACgAZ5vmC_7meMvhyAm3TexP6dMsJhZ2Ker5w9nkHvS2ZCpgRQf5cLvVy3IkA","verify_token":"tiledesk-verify-token","wab_token":"EAAF6CBX7UvEBACx4bQ3ZBFPqsSyQCdwvfOJpj4jFt7hzW5kC8Unx2EUGF8LPWsbNmcbdZCE2hmOFMmANXfIDytjqmd9O2qdoqubV8rkM5LdVtEbLdlrfbZCZB3C31oaTuZBtFbSPLIVhMogXX65Py2AImZAuHsBCsfnaNPWnRMsV1ILqjV05cQiOMmSZCgwMD1TZCItqswAvewZDZD"},"template":{"language":"en_US","name":"hello_world"},"transaction_id":"tiledesk-broadcast-1713886126422"}
+verbose: (wab) schedulerResult:  {"msg":"scheduling success!","success":true}
+verbose: (wab) Action received from Tiledesk (Broadcast)
+debug: Body (broadcast): 
+debug: Searching on [object Object]
+debug: Searching on Collection kvstore
+verbose: Doc found with key: whatsapp-62c3f10152dc7400352bab0d
+debug: (wab) data_To_scheduler:  {"phone_number_id":"109639215462567","project_id":"62c3f10152dc7400352bab0d","receiver_list":[{"phone_number":"+393484506627"}],"settings":{"business_account_id":"107050042390257","department_id":"6408617fffe5e5002c284dbc","project_id":"62c3f10152dc7400352bab0d","proxy_url":"https://tiledesk-whatsapp-connector-dev.glitch.me/webhook/62c3f10152dc7400352bab0d","secret":"89aaa5f9-cebb-4bde-8901-090248d57c0a","subscriptionId":"659bba8f8baa4c002c0821e1","token":"JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFiYTIyNTRlM2UwZTAwMzQ3MGE4YjkiLCJlbWFpbCI6Imdpb3Zhbm5pLnRyb2lzaXViQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6Ikdpb3Zhbm5pIiwibGFzdG5hbWUiOiJUcm9pc2kiLCJlbWFpbHZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MDM2ODc2ODAsImF1ZCI6Imh0dHBzOi8vdGlsZWRlc2suY29tIiwiaXNzIjoiaHR0cHM6Ly90aWxlZGVzay5jb20iLCJzdWIiOiJ1c2VyIiwianRpIjoiMzM2NTU5MjAtYjA2NS00YzRhLWIxNjctODZjZTU1ODg3NjZmIn0.aYi-BV-4lZ8fQuJuicKJcSE8qmKImDIohxwDEu-vHZpuS9P617E9GFSWT-srDZuzzhQeffiENHzMCFGofJvvaaulpAHwOpAqqhbu6IjICv_QzjACgAZ5vmC_7meMvhyAm3TexP6dMsJhZ2Ker5w9nkHvS2ZCpgRQf5cLvVy3IkA","verify_token":"tiledesk-verify-token","wab_token":"EAAF6CBX7UvEBACx4bQ3ZBFPqsSyQCdwvfOJpj4jFt7hzW5kC8Unx2EUGF8LPWsbNmcbdZCE2hmOFMmANXfIDytjqmd9O2qdoqubV8rkM5LdVtEbLdlrfbZCZB3C31oaTuZBtFbSPLIVhMogXX65Py2AImZAuHsBCsfnaNPWnRMsV1ILqjV05cQiOMmSZCgwMD1TZCItqswAvewZDZD"},"template":{"language":"en_US","name":"hello_world"},"transaction_id":"tiledesk-broadcast-1713886550339"}
+debug: (wab) Data arrived to scheduler:  {"date":"2024-04-23T15:35:50.389Z","phone_number_id":"109639215462567","project_id":"62c3f10152dc7400352bab0d","receiver_list":[{"phone_number":"+393484506627"}],"settings":{"business_account_id":"107050042390257","department_id":"6408617fffe5e5002c284dbc","project_id":"62c3f10152dc7400352bab0d","proxy_url":"https://tiledesk-whatsapp-connector-dev.glitch.me/webhook/62c3f10152dc7400352bab0d","secret":"89aaa5f9-cebb-4bde-8901-090248d57c0a","subscriptionId":"659bba8f8baa4c002c0821e1","token":"JWT eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFiYTIyNTRlM2UwZTAwMzQ3MGE4YjkiLCJlbWFpbCI6Imdpb3Zhbm5pLnRyb2lzaXViQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6Ikdpb3Zhbm5pIiwibGFzdG5hbWUiOiJUcm9pc2kiLCJlbWFpbHZlcmlmaWVkIjp0cnVlLCJpYXQiOjE3MDM2ODc2ODAsImF1ZCI6Imh0dHBzOi8vdGlsZWRlc2suY29tIiwiaXNzIjoiaHR0cHM6Ly90aWxlZGVzay5jb20iLCJzdWIiOiJ1c2VyIiwianRpIjoiMzM2NTU5MjAtYjA2NS00YzRhLWIxNjctODZjZTU1ODg3NjZmIn0.aYi-BV-4lZ8fQuJuicKJcSE8qmKImDIohxwDEu-vHZpuS9P617E9GFSWT-srDZuzzhQeffiENHzMCFGofJvvaaulpAHwOpAqqhbu6IjICv_QzjACgAZ5vmC_7meMvhyAm3TexP6dMsJhZ2Ker5w9nkHvS2ZCpgRQf5cLvVy3IkA","verify_token":"tiledesk-verify-token","wab_token":"EAAF6CBX7UvEBACx4bQ3ZBFPqsSyQCdwvfOJpj4jFt7hzW5kC8Unx2EUGF8LPWsbNmcbdZCE2hmOFMmANXfIDytjqmd9O2qdoqubV8rkM5LdVtEbLdlrfbZCZB3C31oaTuZBtFbSPLIVhMogXX65Py2AImZAuHsBCsfnaNPWnRMsV1ILqjV05cQiOMmSZCgwMD1TZCItqswAvewZDZD"},"template":{"language":"en_US","name":"hello_world"},"transaction_id":"tiledesk-broadcast-1713886550339"}
+verbose: (wab) schedulerResult:  {"msg":"scheduling success!","success":true}
+info: (wab) Connect Redis Error Error: Redis connection to redis-19030.c226.eu-west-1-3.ec2.cloud.redislabs.com:19030 failed - read ETIMEDOUT
+info: (wab) Redis ready!
+info: (wab) Connect Redis Error Error: Redis connection to redis-19030.c226.eu-west-1-3.ec2.cloud.redislabs.com:19030 failed - read ETIMEDOUT
+info: (wab) Redis ready!
